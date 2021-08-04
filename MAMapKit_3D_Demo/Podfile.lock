@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap-NO-IDFA (7.9.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.6)
+  - AMapFoundation-NO-IDFA (1.6.7)
+  - AMapSearch-NO-IDFA (7.9.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.6)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - AMap3DMap-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - Masonry
+  - SVProgressHUD
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - Masonry
+    - SVProgressHUD
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AMap3DMap-NO-IDFA: d0474d32fd22d1f3610192ab37a8637c3e4a5189
+  AMapFoundation-NO-IDFA: ec05c37e6991ca9a9c5f5e38d3069581be57b6a0
+  AMapSearch-NO-IDFA: 8b4f223cb2a637e4344fc202042f084c862c07b1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: a2dd63d9d6dfd6c7303e2e44cf3f28bfe3f92049
+
+COCOAPODS: 1.10.1
