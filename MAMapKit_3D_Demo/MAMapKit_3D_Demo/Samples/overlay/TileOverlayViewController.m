@@ -14,10 +14,12 @@
 static NSString *const kUrl4IndoorTileBeginningPart = @"https://dev.indoormap.huatugz.com/xyztiles/";
 static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSize=512&scale=2&floorId=";
 
-//static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
+//static NSString *const kTileOverlayRemoteServerTemplate = @"https://tm.amap.com/trafficengine/mapabc/traffictile?v=1.0&t=1&zoom=' + (17 - {z}) + '&{x}=' + {x} + '&{y}=' + {y}";
+
+static NSString *const kTileOverlayRemoteServerTemplate = @"http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaCities_Community_BaseMap_ENG/BeiJing_Community_BaseMap_ENG/MapServer/tile/{z}/{y}/{x}";
 
 #define kTileOverlayRemoteMinZ      4
-#define kTileOverlayRemoteMaxZ      20
+#define kTileOverlayRemoteMaxZ      16
 
 //MARK: local setting
 #define kTileOverlayLocalMinZ       11
@@ -92,9 +94,11 @@ static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSiz
     
     static BOOL isOddTap = YES;
     if (isOddTap) {
-        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"1"]];
+//        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"1"]];
+        [self updateTileOverlayWithUrl:kTileOverlayRemoteServerTemplate];
     }else{
-        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"2"]];
+//        [self updateTileOverlayWithUrl:[NSString stringWithFormat:@"%@%@%@",kUrl4IndoorTileBeginningPart,kUrl4IndoorTileEndPart,@"0"]];
+        [self updateTileOverlayWithUrl:kTileOverlayRemoteServerTemplate];
     }
     
     isOddTap = !isOddTap;
@@ -134,9 +138,9 @@ static NSString *const kUrl4IndoorTileEndPart = @"indoor/{z}/{x}/{y}.png?tileSiz
     /*宏太智慧谷,113.416927,23.173958
      珠江新城 113.32610067743077,23.11623425763484
      */
-    CLLocationDistance lat = 23.173958;
-    CLLocationDistance log = 113.416927;
-    [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(lat, log) animated:YES];
+//    CLLocationDistance lat = 23.173958;
+//    CLLocationDistance log = 113.416927;
+//    [self.mapView setCenterCoordinate:CLLocationCoordinate2DMake(lat, log) animated:YES];
     
 //    MATileOverlay *outDoorTile = [self creatTileOverlayWithUrl:kUrl4OutDoorTile];
 //    [self.mapView addOverlay:outDoorTile level:MAOverlayLevelAboveRoads];
