@@ -150,7 +150,7 @@
                           @{@"多彩线":@"ColoredLinesOverlayViewController"},
                           @{@"大地曲线":@"GeodesicViewController"},
                           @{@"跑步轨迹":@"RunningLineViewController"},
-                          @{@"蜂窝热力图":@"HeatMapVectorOverlayViewController"},
+                          @{@"蜂窝热力图":@"HewatMapVectorOverlayViewController"},
                           @{@"热力图":@"HeatMapTileOverlayViewController"},
                           @{@"⭐️纹理线":@"TexturedLineOverlayViewController"},
                           @{@"自定义overlay":@"CustomOverlayViewController"},

@@ -23,14 +23,21 @@ class TexturedLineViewController: UIViewController, MAMapViewDelegate {
         self.view.backgroundColor = UIColor.gray
         
         initMapView()
-        initOverlays()
+       
+    }
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        mapView.removeOverlays(overlaysAboveLabels)
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.initOverlays()
+            self.mapView.addOverlays(self.overlaysAboveLabels)
+            self.mapView.showOverlays(self.overlaysAboveLabels, edgePadding: UIEdgeInsetsMake(20, 20, 20, 20), animated: true)
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        mapView.addOverlays(overlaysAboveLabels)
-        mapView.showOverlays(overlaysAboveLabels, edgePadding: UIEdgeInsetsMake(20, 20, 20, 20), animated: true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -73,10 +80,10 @@ class TexturedLineViewController: UIViewController, MAMapViewDelegate {
             CLLocationCoordinate2D(latitude: 39.793765, longitude: 116.294653),
             CLLocationCoordinate2D(latitude: 39.831741, longitude: 116.294653),
             CLLocationCoordinate2D(latitude: 39.832136, longitude: 116.34095)]
-        
+
         let arrowPolyline: MAPolyline = MAPolyline(coordinates: &arrowPolylineCoords, count: UInt(arrowPolylineCoords.count))
         overlaysAboveLabels.insert(arrowPolyline, at: OverlayType.OverlayTypeArrowPolyline.rawValue)
-        
+
         /* Multi-Texture Polyline. */
         var mulTexPolylineCoords: [CLLocationCoordinate2D] = [
             CLLocationCoordinate2D(latitude: 39.852136, longitude: 116.30095),
@@ -84,7 +91,7 @@ class TexturedLineViewController: UIViewController, MAMapViewDelegate {
             CLLocationCoordinate2D(latitude: 39.932136, longitude: 116.40095),
             CLLocationCoordinate2D(latitude: 39.932136, longitude: 116.40095),
             CLLocationCoordinate2D(latitude: 39.982136, longitude: 116.48095)]
-        
+
         let multiTexturePolyline: MAMultiPolyline = MAMultiPolyline.init(coordinates: &mulTexPolylineCoords, count: UInt(mulTexPolylineCoords.count), drawStyleIndexes: [1,2,4])
         overlaysAboveLabels.insert(multiTexturePolyline, at:OverlayType.OverlayTypeMultiTexPolyline.rawValue)
     }
