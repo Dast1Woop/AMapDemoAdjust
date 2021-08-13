@@ -25,8 +25,7 @@ class AnnotationViewController: UIViewController, MAMapViewDelegate {
         super.viewDidAppear(animated)
         
         mapView.addAnnotations(annotations)
-        mapView.showAnnotations(annotations, edgePadding: UIEdgeInsetsMake(20, 20, 20, 20), animated: true)
-        mapView.selectAnnotation(annotations.first!, animated: true)
+        
     }
     
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACA2B080A91621276B2337C /* Pods_MAMapKit_3D_Demo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70149AA3A2F7DD8B7820DA9F /* Pods_MAMapKit_3D_Demo_swift.framework */; };
 		19DD43351DAA3C4100991F7D /* AnimatedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD43341DAA3C4100991F7D /* AnimatedAnnotation.m */; };
 		19DD43411DAA4D2E00991F7D /* AnimatedAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD433A1DAA4D2E00991F7D /* AnimatedAnnotationView.m */; };
 		19DD43421DAA4D2E00991F7D /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DD433C1DAA4D2E00991F7D /* CustomAnnotationView.m */; };
@@ -143,6 +144,7 @@
 		4F40395322858824000100CF /* MANaviTimeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F40394E22858824000100CF /* MANaviTimeInfoView.m */; };
 		4F40395622899307000100CF /* MANaviDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F40395522899307000100CF /* MANaviDatePicker.xib */; };
 		4F667E4C22730B5000FD592B /* RoutePlanFutureDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F667E4B22730B5000FD592B /* RoutePlanFutureDriveViewController.m */; };
+		68A837489E8124FB3E2C7637 /* Pods_MAMapKit_3D_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9EEBD87BA15CA79FF179E3 /* Pods_MAMapKit_3D_Demo.framework */; };
 		6A1CEFA01DF18A3200DB1447 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD95171D9BCB1700E7A2DA /* Security.framework */; };
 		6A6C4FCA1ED2910D00A14DA0 /* MultiPointOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C4FC91ED2910D00A14DA0 /* MultiPointOverlayViewController.m */; };
 		6A6C4FCC1ED2913D00A14DA0 /* 10w.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A6C4FCB1ED2913D00A14DA0 /* 10w.txt */; };
@@ -478,7 +480,6 @@
 		D9D1F0691E1B4B3B00489082 /* AddControlsViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9D1F0661E1B4A8300489082 /* AddControlsViewController.xib */; };
 		D9D1F06E1E1B863000489082 /* AddControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D1F06D1E1B863000489082 /* AddControlsViewController.xib */; };
 		D9D1F06F1E1B87B900489082 /* AddControlsViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9D1F06D1E1B863000489082 /* AddControlsViewController.xib */; };
-		EE873B47202384355ADCD936 /* Pods_MAMapKit_3D_Demo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D0B5FDB71C862D0A746031 /* Pods_MAMapKit_3D_Demo_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -505,6 +506,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A552B28A8F019B4EAF75AFD /* Pods-MAMapKit_3D_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit_3D_Demo.release.xcconfig"; path = "Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		19D2EECA1D59C2920039B22A /* MAMapKit_3D_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAMapKit_3D_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DD43331DAA3C4100991F7D /* AnimatedAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatedAnnotation.h; path = MAMapKit_3D_Demo/Samples/annotation/model/AnimatedAnnotation.h; sourceTree = SOURCE_ROOT; };
 		19DD43341DAA3C4100991F7D /* AnimatedAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatedAnnotation.m; path = MAMapKit_3D_Demo/Samples/annotation/model/AnimatedAnnotation.m; sourceTree = SOURCE_ROOT; };
@@ -606,7 +608,9 @@
 		3AC98C0B1F7CA73A00D69676 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		3AC98C0C1F7CA73A00D69676 /* download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@2x.png"; sourceTree = "<group>"; };
 		3AC98C0D1F7CA73A00D69676 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
-		43B0612A9C27911ED08199EC /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; path = "Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		3D9EEBD87BA15CA79FF179E3 /* Pods_MAMapKit_3D_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapKit_3D_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		425456E1509299599345DB86 /* Pods-MAMapKit_3D_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit_3D_Demo.debug.xcconfig"; path = "Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		467C9E77FC94D6FF58932539 /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit-3D-Demo-swift.debug.xcconfig"; path = "Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		4F17A1902354A44E009C1342 /* HeatMapVectorOverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeatMapVectorOverlayViewController.h; sourceTree = "<group>"; };
 		4F17A1912354A44E009C1342 /* HeatMapVectorOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatMapVectorOverlayViewController.m; sourceTree = "<group>"; };
 		4F17A1932354A54B009C1342 /* honeycomb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = honeycomb.txt; sourceTree = "<group>"; };
@@ -625,7 +629,6 @@
 		4F40395522899307000100CF /* MANaviDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MANaviDatePicker.xib; path = Resources/MANaviDatePicker.xib; sourceTree = SOURCE_ROOT; };
 		4F667E4A22730B5000FD592B /* RoutePlanFutureDriveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutePlanFutureDriveViewController.h; sourceTree = "<group>"; };
 		4F667E4B22730B5000FD592B /* RoutePlanFutureDriveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutePlanFutureDriveViewController.m; sourceTree = "<group>"; };
-		62FE4A0679357D4C9307D36C /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit-3D-Demo-swift.debug.xcconfig"; path = "Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6A6C4FC81ED2910D00A14DA0 /* MultiPointOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPointOverlayViewController.h; sourceTree = "<group>"; };
 		6A6C4FC91ED2910D00A14DA0 /* MultiPointOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPointOverlayViewController.m; sourceTree = "<group>"; };
 		6A6C4FCB1ED2913D00A14DA0 /* 10w.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10w.txt; sourceTree = "<group>"; };
@@ -638,9 +641,10 @@
 		6AC1981520245693005D28C9 /* RoutePlanTruckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutePlanTruckViewController.m; sourceTree = "<group>"; };
 		6AC19817202456C0005D28C9 /* DistanceSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceSearchViewController.h; sourceTree = "<group>"; };
 		6AC19818202456C0005D28C9 /* DistanceSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceSearchViewController.m; sourceTree = "<group>"; };
-		70039357C1F0B91A98020A0C /* Pods-MAMapKit_3D_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit_3D_Demo.debug.xcconfig"; path = "Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		70149AA3A2F7DD8B7820DA9F /* Pods_MAMapKit_3D_Demo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapKit_3D_Demo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814B79571DD5807F0080FB64 /* NearbyVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVewController.h; sourceTree = "<group>"; };
 		814B79581DD5807F0080FB64 /* NearbyVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVewController.m; sourceTree = "<group>"; };
+		A99A76BE68689C47F5DFADBA /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; path = "Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift.release.xcconfig"; sourceTree = "<group>"; };
 		B60784521D9BD1A40057C965 /* heatMapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heatMapData.json; sourceTree = "<group>"; };
 		B60784531D9BD1A40057C965 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		B60784541D9BD1A40057C965 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
@@ -1096,7 +1100,6 @@
 		B6FD94E61D9BC52800E7A2DA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		B6FD94ED1D9BC58700E7A2DA /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		B6FD95171D9BCB1700E7A2DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C1D0B5FDB71C862D0A746031 /* Pods_MAMapKit_3D_Demo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAMapKit_3D_Demo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24F1302269C3B340000B0C8 /* rqstData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rqstData.plist; sourceTree = "<group>"; };
 		C24F1333269C47E90000B0C8 /* MYLHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYLHttpTool.h; sourceTree = "<group>"; };
 		C24F1334269C47E90000B0C8 /* MYLHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLHttpTool.m; sourceTree = "<group>"; };
@@ -1106,7 +1109,6 @@
 		D9D09E2D1E1547A000A54E04 /* RoutePlanRideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoutePlanRideViewController.xib; path = ../MAMapKit_3D_Demo/Samples/routePlan/RoutePlanRideViewController.xib; sourceTree = "<group>"; };
 		D9D1F0661E1B4A8300489082 /* AddControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddControlsViewController.xib; sourceTree = "<group>"; };
 		D9D1F06D1E1B863000489082 /* AddControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddControlsViewController.xib; sourceTree = "<group>"; };
-		EECD9808DB8502C47626099C /* Pods-MAMapKit_3D_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapKit_3D_Demo.release.xcconfig"; path = "Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1121,6 +1123,7 @@
 				B61084BB1D59D9C800C359A7 /* SystemConfiguration.framework in Frameworks */,
 				B61084B11D59D90500C359A7 /* CoreLocation.framework in Frameworks */,
 				B61084AD1D59D8D700C359A7 /* CoreTelephony.framework in Frameworks */,
+				68A837489E8124FB3E2C7637 /* Pods_MAMapKit_3D_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1135,7 +1138,7 @@
 				B6FD95161D9BCB1000E7A2DA /* CoreTelephony.framework in Frameworks */,
 				B6FD95151D9BCB0A00E7A2DA /* SystemConfiguration.framework in Frameworks */,
 				B6FD95121D9BCAF000E7A2DA /* libz.tbd in Frameworks */,
-				EE873B47202384355ADCD936 /* Pods_MAMapKit_3D_Demo_swift.framework in Frameworks */,
+				0ACA2B080A91621276B2337C /* Pods_MAMapKit_3D_Demo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,7 +1549,8 @@
 				B61084B01D59D90500C359A7 /* CoreLocation.framework */,
 				B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */,
 				B61084AA1D59D8D000C359A7 /* UIKit.framework */,
-				C1D0B5FDB71C862D0A746031 /* Pods_MAMapKit_3D_Demo_swift.framework */,
+				70149AA3A2F7DD8B7820DA9F /* Pods_MAMapKit_3D_Demo_swift.framework */,
+				3D9EEBD87BA15CA79FF179E3 /* Pods_MAMapKit_3D_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2284,10 +2288,10 @@
 		C1B8A9965FF4E3975665D06A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				62FE4A0679357D4C9307D36C /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */,
-				43B0612A9C27911ED08199EC /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */,
-				70039357C1F0B91A98020A0C /* Pods-MAMapKit_3D_Demo.debug.xcconfig */,
-				EECD9808DB8502C47626099C /* Pods-MAMapKit_3D_Demo.release.xcconfig */,
+				467C9E77FC94D6FF58932539 /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */,
+				A99A76BE68689C47F5DFADBA /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */,
+				425456E1509299599345DB86 /* Pods-MAMapKit_3D_Demo.debug.xcconfig */,
+				0A552B28A8F019B4EAF75AFD /* Pods-MAMapKit_3D_Demo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2345,13 +2349,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D2EEE11D59C2920039B22A /* Build configuration list for PBXNativeTarget "MAMapKit_3D_Demo" */;
 			buildPhases = (
-				3540FF2160FE2942637BDA04 /* [CP] Check Pods Manifest.lock */,
+				12E1FF77CB73F7B759D687B6 /* [CP] Check Pods Manifest.lock */,
 				19D2EEC61D59C2920039B22A /* Sources */,
 				19D2EEC71D59C2920039B22A /* Frameworks */,
 				19D2EEC81D59C2920039B22A /* Resources */,
 				D9D1F0681E1B4B1700489082 /* CopyFiles */,
-				958BAE5E043B28502B1EF6BE /* [CP] Embed Pods Frameworks */,
-				582E1A90605121EF2633AEAB /* [CP] Copy Pods Resources */,
+				E4495326892FB61D1CFC6A82 /* [CP] Embed Pods Frameworks */,
+				88D27A0181497BD98DEA59E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2366,13 +2370,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6FD94D31D9BC41D00E7A2DA /* Build configuration list for PBXNativeTarget "MAMapKit-3D-Demo-swift" */;
 			buildPhases = (
-				CB8B8878C4F1DC687F527714 /* [CP] Check Pods Manifest.lock */,
+				7B372E71B52334F6C94F8E05 /* [CP] Check Pods Manifest.lock */,
 				B6FD94AA1D9BC41D00E7A2DA /* Sources */,
 				B6FD94AB1D9BC41D00E7A2DA /* Frameworks */,
 				B6FD94AC1D9BC41D00E7A2DA /* Resources */,
 				D9D1F06A1E1B5BFB00489082 /* CopyFiles */,
-				0E64298EC8A9310372579BD0 /* [CP] Embed Pods Frameworks */,
-				C541DB6D362E7F8920C4AAAC /* [CP] Copy Pods Resources */,
+				7BEC0C05499519CB51EFC17F /* [CP] Embed Pods Frameworks */,
+				CB0A32BA088B35E0EA68F9DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2641,7 +2645,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E64298EC8A9310372579BD0 /* [CP] Embed Pods Frameworks */ = {
+		12E1FF77CB73F7B759D687B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAMapKit_3D_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B372E71B52334F6C94F8E05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAMapKit-3D-Demo-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEC0C05499519CB51EFC17F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2665,29 +2713,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3540FF2160FE2942637BDA04 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MAMapKit_3D_Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		582E1A90605121EF2633AEAB /* [CP] Copy Pods Resources */ = {
+		88D27A0181497BD98DEA59E7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2705,7 +2731,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		958BAE5E043B28502B1EF6BE /* [CP] Embed Pods Frameworks */ = {
+		CB0A32BA088B35E0EA68F9DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4495326892FB61D1CFC6A82 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2727,46 +2771,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit_3D_Demo/Pods-MAMapKit_3D_Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C541DB6D362E7F8920C4AAAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh",
-				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAMapKit-3D-Demo-swift/Pods-MAMapKit-3D-Demo-swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB8B8878C4F1DC687F527714 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MAMapKit-3D-Demo-swift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3176,7 +3180,7 @@
 		};
 		19D2EEE21D59C2920039B22A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70039357C1F0B91A98020A0C /* Pods-MAMapKit_3D_Demo.debug.xcconfig */;
+			baseConfigurationReference = 425456E1509299599345DB86 /* Pods-MAMapKit_3D_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -3206,7 +3210,7 @@
 		};
 		19D2EEE31D59C2920039B22A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EECD9808DB8502C47626099C /* Pods-MAMapKit_3D_Demo.release.xcconfig */;
+			baseConfigurationReference = 0A552B28A8F019B4EAF75AFD /* Pods-MAMapKit_3D_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -3237,7 +3241,7 @@
 		};
 		B6FD94D41D9BC41D00E7A2DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62FE4A0679357D4C9307D36C /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */;
+			baseConfigurationReference = 467C9E77FC94D6FF58932539 /* Pods-MAMapKit-3D-Demo-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -3268,7 +3272,7 @@
 		};
 		B6FD94D51D9BC41D00E7A2DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43B0612A9C27911ED08199EC /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */;
+			baseConfigurationReference = A99A76BE68689C47F5DFADBA /* Pods-MAMapKit-3D-Demo-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;

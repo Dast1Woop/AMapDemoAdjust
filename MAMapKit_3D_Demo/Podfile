@@ -1,11 +1,12 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
 pod "Masonry"
 pod 'AFNetworking','~>4.0.1'
 pod 'YYModel', '~> 1.0.4'
 pod 'SVProgressHUD'
-pod 'AMap3DMap-NO-IDFA'
+pod 'AMap3DMap-NO-IDFA', '~> 8.0.0'
 pod 'AMapSearch-NO-IDFA'
 
 target 'MAMapKit-3D-Demo-swift' do
